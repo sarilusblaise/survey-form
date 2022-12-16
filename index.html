@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <!--survey head section-->
+  <header class="header">
+    <h1 id="title">ELISAMA Group Survey Form</h1>
+    <p id="description">
+      We would like to know what to improve to help more bachelor to enter the UEH. Please take some time to fill this
+      form.
+    </p>
+  </header>
+
+  <!--survey form section-->
+  <main>
+    <section>
+      <form id="survey-form" action="" method="post" class="form">
+        <div class="form-field">
+          <label for="name" id="name-label">Name</label><input class="form-element" id="name" name="name" type="text"
+            placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email" id="email-label">Email</label><input class="form-element" id="email" name="email"
+            type="email" placeholder="Enter your email" required>
+        </div>
+
+
+        <div class="form-field">
+          <label for="number" id="number-label">Age</label><input class="form-element" id="number" name="age" min="17"
+            max="90" placeholder="Age" type="number">
+
+        </div>
+
+
+        <div class="form-field">
+          <label for="dropdown"> Which option best describe you current role?</label>
+          <select name="category" id="dropdown" class="form-element">
+            <option value="" disabled>Select a option</option>
+            <option value="teacher">Teacher</option>
+            <option value="student">Student</option>
+            <option value="professionnal">Professionnal</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <p class="form-field-title">How do you hear about ELSAMA Group</p>
+          <label for="friend"><input type="radio" name="info" id="friend" value="friend">from A Friend</label>
+
+          <label for="on-facebook"><input type="radio" name="info" id="on-facebook" value="facebook">on Facebook</label>
+
+          <label for="on-radio"><input type="radio" name="info" id="on-radio" value="radio">On Radio</label>
+
+          <label for="other"><input type="radio" name="info" id="other" value="other">Other</label>
+        </div>
+
+        <div class="form-field">
+          <p class="form-field-title">What do you want us to improve?</p>
+          <label for="teacher-label"><input type="checkbox" name="teacher" id="teacher-label" value="teacher">Our
+            Teachers</label>
+
+          <label for="staff-label"><input type="checkbox" name="staff" id="staff-label" value="staff">Our Staff</label>
+
+          <label for="discipline-label"><input type="checkbox" name="discipline" id="discipline-label"
+              value="discipline">Our
+            Discipline</label>
+
+          <label for="courses-label"><input type="checkbox" name="courses" id="courses-label" value="course">Our
+            Courses</label>
+
+          <label for="exams-label"><input type="checkbox" name="exams" id="exams-label" value="exam">Our Exams</label>
+        </div>
+
+        <div class="form-field">
+          <p class="form-field-title">Any additional comments about us?</p>
+          <textarea name="comments" id="" cols="30" rows="10" placeholder="Add comments"></textarea>
+        </div>
+
+        <input id="submit" class="submit-btn" type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+
+
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
