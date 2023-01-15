@@ -136,12 +136,32 @@ p {
 }
 
 /* section */
+/*header*/
+.header {
+  min-height: 30vh;
+  width: 100%;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  color: var(--clr-white);
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(/images/backgroung.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header #description {
+  color: var(--color-white);
+  font-style: italic;
+}
+
+/* form*/
+
 .form {
   padding: 2rem 2rem;
   width: 80vw;
   max-width: 700px;
   margin: 0 auto;
-  background-color: var(--color-darkblue-alpha);
+  background-color: var(--clr-grey-2);
   margin-bottom: 4rem;
   border-radius: 0.3rem;
   color: var(--color-white);
@@ -151,17 +171,6 @@ p {
   color: var(--color-white)
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem 3rem 0 3rem;
-  color: var(--clr-white);
-}
-.header #description{
-  color: var(--color-white);
-  font-style: italic;
-}
 
 label {
   display: flex;
@@ -216,12 +225,9 @@ label {
 
 .top-background{
   position: absolute;
-  height: 40%;
+  height: 30%;
+  max-height: 30%;
   width: 100%;
   z-index: -1;
   background: var(--color-darkblue);
-  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(/images/backgroung.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
