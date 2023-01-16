@@ -1,4 +1,4 @@
-# Barbencourt landing page
+# Survey Form
 This project consisted in designing  a survey form .This is one of the freeCodeCamp's responsive web design required projects to get my certificate.
 
 ## Build with:
