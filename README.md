@@ -1,3 +1,30 @@
-# Survey Form FreeCodeCamp project
+# Barbencourt landing page
+This project consisted in designing  a survey form .This is one of the freeCodeCamp's responsive web design required projects to get my certificate.
 
-This one of the require freecodecamp projects to get my responsive web design certificate.Even tough I am a self taught developer for about three years, it's a great pleasure for me to do this project to keep on top my skills and have some credentials in my portfolio .I never feel tired of learning , programming procure to me so much pleasure and passion ,I feel like I wanna do it for the rest of my life.
+## Build with:
+* HTML5
+* CSS3
+* JS
+
+## Live demo
+[click here](https://sarilusblaise.github.io/survey-form/)
+
+# Getting Started
+To get started with this project, follow the instructions below :
+
+Clone the project using git clone or just copy the command below:
+```bash
+git clone https://github.com/Sarilus-Blaise/survey-form.git
+```
+
+
+# Author 
+* LinkedIn: <a href="https://www.linkedin.com/in/sarilusblaise/" target="_blank">sarilusblaise</a>
+* GitHub: <a href="https://github.com/sarilusblaise" target="_blank">sarilusblaise</a>
+* Twitter: <a href="https://twitter.com/sarilusblaise" target="_blank">sarilusblaise</a>
+  
+
+# Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Sarilus-Blaise/survey-form/issues).
+
