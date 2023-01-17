@@ -152,6 +152,7 @@ p {
 .header #description {
   color: var(--color-white);
   font-style: italic;
+  text-align: center;
 }
 
 /* form*/
